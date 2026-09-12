@@ -7,7 +7,12 @@
     "build": "pnpm -r build",
     "typecheck": "pnpm -r typecheck",
     "lint": "pnpm -r lint",
-    "test": "pnpm -r test"
+    "test": "pnpm -r test",
+    "db:generate": "pnpm --filter @caremetric/api db:generate",
+    "db:migrate": "pnpm --filter @caremetric/api db:migrate",
+    "db:push": "pnpm --filter @caremetric/api db:push",
+    "db:seed": "pnpm --filter @caremetric/api db:seed",
+    "db:studio": "pnpm --filter @caremetric/api db:studio"
   },
   "keywords": [],
   "author": "",
